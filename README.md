@@ -2,7 +2,7 @@
 
 I built this network in Cisco Packet Tracer to practice switching, routing, and basic security for a small healthcare clinic.
 
-[Topology](01-topology.png)
+![Topology](01-topology.png)
 
 Devices: one router (R1), one Layer 3 switch (MLS1), two access switches (SW1 and SW2), one access point, one server, and six PCs.
 
