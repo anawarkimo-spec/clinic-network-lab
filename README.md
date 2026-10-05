@@ -26,17 +26,17 @@ I split 192.168.10.0/24 into five subnets with VLSM.
 
 **DHCP.** MLS1 hands out addresses to each VLAN. I moved the PCs from static addresses to DHCP.
 
-![DHCP bindings](images/02-dhcp-bindings.png)
-![PC address from DHCP](images/03-pc-dhcp-ipconfig.png)
+![DHCP bindings](02-dhcp-bindings.png)
+![PC address from DHCP](03-pc-dhcp-ipconfig.png)
 
 **Port security.** On the PC ports I set a maximum of one MAC address, sticky learning, and shutdown on violation. I plugged in a different PC to test it and the port went into err-disabled. I fixed it by reconnecting the original PC and resetting the port.
 
-![Port security on SW2](images/04-port-security-sw2.png)
+![Port security on SW2](04-port-security-sw2.png)
 
 **Guest Wi-Fi.** The access point has a WPA2 guest network on VLAN 30. A smartphone connected, got an address, and reached the server.
 
-![Smartphone browsing to the server](images/05-guest-wifi-web.png)
-![Smartphone ping to the server](images/06-guest-wifi-ping.png)
+![Smartphone browsing to the server](05-guest-wifi-web.png)
+![Smartphone ping to the server](06-guest-wifi-ping.png)
 
 ## Problems I ran into
 
